@@ -1,0 +1,21 @@
+{
+  "name": "reflux-helper",
+  "version": "0.1.0",
+  "description": "reflux开发助手",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/helper.test.js"
+  },
+  "author": "shunqian.ji",
+  "license": "ISC",
+  "dependencies": {
+    "nunjucks": "~1.3.4"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.5",
+    "should": "~6.0.3"
+  },
+  "bin": {
+    "rh":"bin/helper.js"
+  }
+}

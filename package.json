@@ -6,6 +6,10 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha test/helper.test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:qianshu/reflux-helper.git"
+  },
   "author": "shunqian.ji",
   "license": "ISC",
   "dependencies": {

@@ -1,10 +1,10 @@
 {
   "name": "reflux-helper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "reflux开发助手",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test/helper.test.js"
+    "test": "mocha test/helper.test.js --require should"
   },
   "repository": {
     "type": "git",
